@@ -76,6 +76,12 @@
     <Compile Include="PanelGUI.Designer.cs">
       <DependentUpon>PanelGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="PictureBoxGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBoxGUI.Designer.cs">
+      <DependentUpon>PictureBoxGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RadioButtonGUI.cs">
@@ -105,6 +111,9 @@
     <EmbeddedResource Include="PanelGUI.resx">
       <DependentUpon>PanelGUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PictureBoxGUI.resx">
+      <DependentUpon>PictureBoxGUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -132,6 +141,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\2.jpg" />
+    <Content Include="Resources\3.jpg" />
+    <Content Include="Resources\4.jpg" />
+    <Content Include="Resources\5.jpg" />
+    <Content Include="Resources\1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
