@@ -64,6 +64,12 @@
     <Compile Include="ComboBoxGUI.Designer.cs">
       <DependentUpon>ComboBoxGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListViewGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListViewGUI.Designer.cs">
+      <DependentUpon>ListViewGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="MessageBoxGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ComboBoxGUI.resx">
       <DependentUpon>ComboBoxGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListViewGUI.resx">
+      <DependentUpon>ListViewGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MessageBoxGUI.resx">
       <DependentUpon>MessageBoxGUI.cs</DependentUpon>
