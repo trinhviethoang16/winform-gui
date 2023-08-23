@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowGUI
 {
-    public partial class TextBox : Form
+    public partial class TextBoxGUI : Form
     {
-        public TextBox()
+        public TextBoxGUI()
         {
             InitializeComponent();
         }

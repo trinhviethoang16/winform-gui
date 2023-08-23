@@ -96,11 +96,17 @@
     <Compile Include="RadioButtonGUI.Designer.cs">
       <DependentUpon>RadioButtonGUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="TextBox.cs">
+    <Compile Include="TextBoxGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TextBox.Designer.cs">
-      <DependentUpon>TextBox.cs</DependentUpon>
+    <Compile Include="TextBoxGUI.Designer.cs">
+      <DependentUpon>TextBoxGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TreeViewGUI.Designer.cs">
+      <DependentUpon>TreeViewGUI.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="ButtonGUI.resx">
       <DependentUpon>ButtonGUI.cs</DependentUpon>
@@ -135,8 +141,11 @@
     <EmbeddedResource Include="RadioButtonGUI.resx">
       <DependentUpon>RadioButtonGUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TextBox.resx">
-      <DependentUpon>TextBox.cs</DependentUpon>
+    <EmbeddedResource Include="TextBoxGUI.resx">
+      <DependentUpon>TextBoxGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeViewGUI.resx">
+      <DependentUpon>TreeViewGUI.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

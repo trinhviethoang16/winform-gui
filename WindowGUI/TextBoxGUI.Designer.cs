@@ -1,6 +1,6 @@
 ﻿namespace WindowGUI
 {
-    partial class TextBox
+    partial class TextBoxGUI
     {
         /// <summary>
         /// Required designer variable.
