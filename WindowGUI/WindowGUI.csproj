@@ -108,6 +108,12 @@
     <Compile Include="TextBoxGUI.Designer.cs">
       <DependentUpon>TextBoxGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="ToolTipGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolTipGUI.Designer.cs">
+      <DependentUpon>ToolTipGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="TreeViewGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TextBoxGUI.resx">
       <DependentUpon>TextBoxGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolTipGUI.resx">
+      <DependentUpon>ToolTipGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TreeViewGUI.resx">
       <DependentUpon>TreeViewGUI.cs</DependentUpon>
