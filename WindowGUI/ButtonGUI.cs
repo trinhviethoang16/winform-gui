@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace WindowGUI
 {
-    public partial class Button : Form
+    public partial class ButtonGUI : Form
     {
         private int count = 0;
 
-        public Button()
+        public ButtonGUI()
         {
             InitializeComponent();
         }

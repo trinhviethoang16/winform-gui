@@ -46,23 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Button.cs">
+    <Compile Include="ButtonGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Button.Designer.cs">
-      <DependentUpon>Button.cs</DependentUpon>
+    <Compile Include="ButtonGUI.Designer.cs">
+      <DependentUpon>ButtonGUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="CheckBox.cs">
+    <Compile Include="CheckBoxGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CheckBox.Designer.cs">
-      <DependentUpon>CheckBox.cs</DependentUpon>
+    <Compile Include="CheckBoxGUI.Designer.cs">
+      <DependentUpon>CheckBoxGUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="Messagebox.cs">
+    <Compile Include="MessageBoxGUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Messagebox.Designer.cs">
-      <DependentUpon>Messagebox.cs</DependentUpon>
+    <Compile Include="MessageBoxGUI.Designer.cs">
+      <DependentUpon>MessageBoxGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PanelGUI.Designer.cs">
+      <DependentUpon>PanelGUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,14 +78,17 @@
     <Compile Include="TextBox.Designer.cs">
       <DependentUpon>TextBox.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Button.resx">
-      <DependentUpon>Button.cs</DependentUpon>
+    <EmbeddedResource Include="ButtonGUI.resx">
+      <DependentUpon>ButtonGUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CheckBox.resx">
-      <DependentUpon>CheckBox.cs</DependentUpon>
+    <EmbeddedResource Include="CheckBoxGUI.resx">
+      <DependentUpon>CheckBoxGUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Messagebox.resx">
-      <DependentUpon>Messagebox.cs</DependentUpon>
+    <EmbeddedResource Include="MessageBoxGUI.resx">
+      <DependentUpon>MessageBoxGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelGUI.resx">
+      <DependentUpon>PanelGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

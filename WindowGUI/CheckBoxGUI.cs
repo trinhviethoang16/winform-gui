@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowGUI
 {
-    public partial class CheckBox : Form
+    public partial class CheckBoxGUI : Form
     {
-        public CheckBox()
+        public CheckBoxGUI()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace WindowGUI
 {
-    partial class CheckBox
+    partial class CheckBoxGUI
     {
         /// <summary>
         /// Required designer variable.

@@ -1,6 +1,6 @@
 ﻿namespace WindowGUI
 {
-    partial class Button
+    partial class ButtonGUI
     {
         /// <summary>
         /// Required designer variable.

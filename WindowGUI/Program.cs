@@ -16,7 +16,7 @@ namespace WindowGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Messagebox());
+            Application.Run(new PanelGUI());
         }
     }
 }
