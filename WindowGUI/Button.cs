@@ -36,7 +36,6 @@ namespace WindowGUI
         private void Button_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Button btn = sender as System.Windows.Forms.Button;
-            MessageBox.Show(btn.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)

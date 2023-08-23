@@ -23,7 +23,7 @@ namespace WindowGUI
             string isGay = checkBox1.CheckState == CheckState.Checked ? "is" :
                 checkBox1.CheckState == CheckState.Unchecked ? "is not" : "is and not";
             string showString = string.Format("Hello {0}, you {1} gay !", name, isGay);
-            MessageBox.Show(showString);
+            System.Windows.Forms.MessageBox.Show(showString);
         }
     }
 }
