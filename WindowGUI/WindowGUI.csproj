@@ -64,6 +64,12 @@
     <Compile Include="ComboBoxGUI.Designer.cs">
       <DependentUpon>ComboBoxGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContextMenuGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContextMenuGUI.Designer.cs">
+      <DependentUpon>ContextMenuGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListViewGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ComboBoxGUI.resx">
       <DependentUpon>ComboBoxGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContextMenuGUI.resx">
+      <DependentUpon>ContextMenuGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListViewGUI.resx">
       <DependentUpon>ListViewGUI.cs</DependentUpon>
