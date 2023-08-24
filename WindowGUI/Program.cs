@@ -16,7 +16,7 @@ namespace WindowGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ThreadGUI());
+            Application.Run(new TimerGUI());
         }
     }
 }
