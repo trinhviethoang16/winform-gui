@@ -94,6 +94,12 @@
     <Compile Include="NotifyIconGUI.Designer.cs">
       <DependentUpon>NotifyIconGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="NumericUpDownGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumericUpDownGUI.Designer.cs">
+      <DependentUpon>NumericUpDownGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="PanelGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     </Compile>
     <Compile Include="ProcessBarGUI.Designer.cs">
       <DependentUpon>ProcessBarGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessGUI.Designer.cs">
+      <DependentUpon>ProcessGUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -180,6 +192,9 @@
     <EmbeddedResource Include="NotifyIconGUI.resx">
       <DependentUpon>NotifyIconGUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NumericUpDownGUI.resx">
+      <DependentUpon>NumericUpDownGUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PanelGUI.resx">
       <DependentUpon>PanelGUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProcessBarGUI.resx">
       <DependentUpon>ProcessBarGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessGUI.resx">
+      <DependentUpon>ProcessGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
