@@ -16,7 +16,7 @@ namespace WindowGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ContextMenuGUI());
+            Application.Run(new NotifyIconGUI());
         }
     }
 }
