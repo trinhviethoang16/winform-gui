@@ -102,6 +102,12 @@
     <Compile Include="RadioButtonGUI.Designer.cs">
       <DependentUpon>RadioButtonGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="StatusBarGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatusBarGUI.Designer.cs">
+      <DependentUpon>StatusBarGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="TextBoxGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,9 @@
     </Compile>
     <EmbeddedResource Include="RadioButtonGUI.resx">
       <DependentUpon>RadioButtonGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusBarGUI.resx">
+      <DependentUpon>StatusBarGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TextBoxGUI.resx">
       <DependentUpon>TextBoxGUI.cs</DependentUpon>
