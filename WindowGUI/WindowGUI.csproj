@@ -70,6 +70,12 @@
     <Compile Include="ContextMenuGUI.Designer.cs">
       <DependentUpon>ContextMenuGUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="DateTimePickerGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateTimePickerGUI.Designer.cs">
+      <DependentUpon>DateTimePickerGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListViewGUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ContextMenuGUI.resx">
       <DependentUpon>ContextMenuGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePickerGUI.resx">
+      <DependentUpon>DateTimePickerGUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListViewGUI.resx">
       <DependentUpon>ListViewGUI.cs</DependentUpon>
